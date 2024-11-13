@@ -1,0 +1,15 @@
+#fcfcfc - "bela"
+#c52465
+#cf3171
+#d93e7d
+#e34b89
+
+sve ostale nijanse crvene
+
+
+PLAVE
+#164863 - TAMNA
+#427D9D - SVETLIJA MALO
+#9BBEC8 - SVETLIJA VISE
+#DDF2FD - SVETLIJA NAJVISE
+

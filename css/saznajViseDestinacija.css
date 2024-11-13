@@ -1,0 +1,172 @@
+body
+{
+    font-family: 'League Spartan';font-size: 22px;
+    background-color: #fcfcfc;  
+}
+/* navigacija */
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-toggler-icon
+{
+    transform: rotate(180deg);
+    background-image: url("pictures/navbar_hamburger1.png");
+    transition: 300ms;
+
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon
+{
+    background-image: url("pictures/navbar_hamburger2.png");
+    transform: rotate(90deg);
+}
+.NavText
+{
+    font-size: 23px;
+    padding-top: 10px;
+    color: #164863;
+    transition: 300ms;
+}
+.NavText:hover
+{
+    transform: scale(1.1);
+    color: #c52465;
+    
+}
+#navbarNav
+{
+    transition: 500ms;
+}
+
+.NavTextUloguj
+{
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: #164863;
+    transition: 300ms;
+}
+.NavTextUloguj:hover
+{
+    transform: scale(1.1);
+    color: #c52465;
+}
+
+.NavTextIme
+{
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: #164863;
+}
+.text
+{
+    padding-top: 90px;
+    color: #164863;
+}
+h2
+{
+    color: #c52465;
+}
+.paragraf
+{
+    font-size: 28px;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.img-fluid
+{
+    padding: 2px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    font-weight: bold;
+}
+/* footer */
+.footer
+{
+    width: 100%;
+    background-color: #164863;
+    color: white;
+}
+#footerLevo
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.footerNaslov
+{
+    font-weight: bold;
+    text-align: left;
+    font-size: 80px;
+}
+.fLink
+{
+    text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+}
+.fLink:hover
+{
+    color: #e34b89;
+}
+#footLink
+{
+    padding-left: 5px;
+}
+.naslovKompanija
+{
+    font-weight: bold;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.opisKompanija
+{
+    font-weight: lighter;
+    text-align: left;
+    margin: -1px;
+}
+
+
+/* desni deo */
+#footerDesno
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.tekstKontakt
+{
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+.mapa
+{
+    border-radius: 30px;
+}
+#kontaktTelefon
+{
+    padding-right: 215px;
+}
+#kontaktMail
+{
+    padding-right: 126px;
+}
+.mreze
+{
+    padding-top: 20px;
+    display: inline;
+}
+#ikonice
+{
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+}

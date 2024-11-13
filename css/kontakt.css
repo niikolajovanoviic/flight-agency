@@ -1,0 +1,258 @@
+body
+{
+    font-family: 'League Spartan';font-size: 22px;
+    background-color: #fcfcfc;  
+    overflow: visible;
+}
+
+/* navigacija */
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-toggler-icon
+{
+    transform: rotate(180deg);
+    background-image: url("pictures/navbar_hamburger1.png");
+    transition: 300ms;
+
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon
+{
+    background-image: url("pictures/navbar_hamburger2.png");
+    transform: rotate(90deg);
+}
+.NavText
+{
+    font-size: 23px;
+    padding-top: 10px;
+    color: #164863;
+    transition: 300ms;
+}
+.NavText:hover
+{
+    transform: scale(1.1);
+    color: #c52465;
+    
+}
+
+#navbarNav
+{
+    transition: 500ms;
+}
+.NavTextUloguj
+{
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: #164863;
+    transition: 300ms;
+}
+.NavTextUloguj:hover
+{
+    transform: scale(1.1);
+    color: #c52465;
+}
+.NavTextIme
+{
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: #164863;
+}
+
+#navKontakt
+{
+    color: #c52465;
+    border-bottom: 2px solid #c52465;
+}
+#navbarNav
+{
+    text-align: center;
+    transition: 500ms;
+}
+#navbarPadding
+{
+    padding-top: 40px;
+}
+/* naslov */
+.naslov h1
+{
+    font-size: 50px;
+    color: #164863;
+    border-bottom: 1px solid #164863;
+}
+/* levideo */
+.naslovLevo h1
+{
+    color: #c52465;
+    margin-top: 5px;
+    font-size: 30px;
+}
+input
+{
+    height: 50px;
+}
+#buttonDiv
+{
+    max-width: 200px;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+#button
+{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #164863;
+    font-size: 20px;
+    width: 200px;
+    transition: 300ms;
+}
+#button:hover
+{
+    color: white;
+    background-color: #c52465;
+}
+#greskaPrazno
+{
+    font-size: 20px;
+    margin-top: 20px;
+    color: red;
+}
+.formKontakt
+{
+   width: 100%;
+   border: 1px solid lightgrey;
+   border-radius: 5px;
+   padding-left: 10px;
+}
+.granica
+{
+    width: 100%;
+   border: 1px solid red;
+   border-radius: 5px;
+   padding-left: 10px;
+}
+.input-group p
+{
+    color: #164863;
+}
+
+
+/* desnideo */
+.naslovDesno h1
+{
+    color: #c52465;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.kontaktDesno p
+{
+    color: #164863;
+}
+.tekstKontaktDesno
+{
+    text-align: center;
+}
+.kontaktDesno iframe
+{
+    width: 100%;
+    height: 340px;
+}
+
+
+
+
+/* footer */
+.footer
+{
+    width: 100%;
+    background-color: #164863;
+    color: white;
+}
+#footerLevo
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.footerNaslov
+{
+    font-weight: bold;
+    text-align: left;
+    font-size: 80px;
+}
+.fLink
+{
+    text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+}
+.fLink:hover
+{
+    color: #e34b89;
+}
+#footLink
+{
+    padding-left: 5px;
+}
+.naslovKompanija
+{
+    font-weight: bold;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.opisKompanija
+{
+    font-weight: lighter;
+    text-align: left;
+    margin: -1px;
+}
+
+
+/* desni deo */
+#footerDesno
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.tekstKontakt
+{
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+.mapa
+{
+    border-radius: 30px;
+}
+#kontaktTelefon
+{
+    padding-right: 215px;
+}
+#kontaktMail
+{
+    padding-right: 126px;
+}
+.mreze
+{
+    padding-top: 20px;
+    display: inline;
+}
+#ikonice
+{
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 300ms;
+}
+#ikonice:hover
+{
+   transform: scale(1.1);
+}

@@ -1,0 +1,397 @@
+body
+{
+    font-family: 'League Spartan';font-size: 22px;
+    background-color: #fcfcfc;  
+}
+
+/* navigacija */
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-toggler-icon
+{
+    transform: rotate(180deg);
+    background-image: url("pictures/navbar_hamburger1.png");
+    transition: 300ms;
+    
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon
+{
+    background-image: url("pictures/navbar_hamburger2.png");
+    transform: rotate(90deg);
+}
+
+.NavText
+{
+    font-size: 23px;
+    padding-top: 10px;
+    color: #164863;
+    transition: 300ms;
+}
+.NavText:hover
+{
+    transform: scale(1.1);
+    color: #c52465;
+    
+}
+#navbarNav
+{
+    text-align: center;
+    transition: 500ms;
+}
+
+.NavTextUloguj
+{
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: #164863;
+    transition: 300ms;
+}
+.NavTextUloguj:hover
+{
+    transform: scale(1.1);
+    color: #c52465;
+}
+
+.NavTextIme
+{
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: #164863;
+}
+
+
+/* jumbotron */
+.jumbotron1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    border-radius: 10px;
+    height: 420px;
+    margin: 5px;
+    background-image: url("pictures/citatBcg.png");
+    background-size:auto;
+}
+#navbarPadding
+{
+    padding-top: 100px;
+}
+.blockquote, .blockquote-footer
+{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+/* forma */
+.jumbotron2 {
+    display: flex;
+}
+.flex-item {
+    flex-grow: 1;
+    height: 100px; /* Prilagodite visinu po potrebi */
+}
+
+.levo {
+    background-color: #164863;
+    border-top-left-radius:10px ;
+    border-bottom-left-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+}
+.levo:hover {
+    background-color: #e34b89;
+    
+}
+.levo input
+{
+    transition: 300ms;
+}
+.levo input:hover
+{
+    transform: scale(1.1);
+}
+
+
+
+.desno {
+    background-color: #164863;
+    border-top-right-radius:10px ;
+    border-bottom-right-radius:10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 300ms;
+}
+.desno:hover{
+    background-color: #e34b89;
+}
+.desno input
+{
+    transition: 300ms;
+}
+.desno input:hover
+{
+    transform: scale(1.1);
+}
+
+
+.submitButton
+{
+    font-size: 25px;
+    color: white;
+    border: none;
+    background-color: transparent;
+}
+
+
+
+/* poruke */
+.card-title
+{
+    font-size: 30px;
+    font-weight: bold;
+    color: #164863;
+}
+.card-text
+{
+    text-align: left;
+    color: #164863;
+    font-size: 20px;
+}
+.porukaLink
+{
+    color: #164863;
+    text-decoration: none;
+    transition: 300ms;
+}
+.porukaLink:hover
+{
+    color: #c52465;
+    text-decoration: none;
+}
+
+
+/* carousel */
+.naslov
+{
+    text-align: left;
+    color: #164863;
+}
+#saznajvise
+{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 300ms;
+}
+#saznajvise:hover
+{
+    color: #9BBEC8;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.carousel-inner
+{
+    border-radius: 10px;
+}
+.carousel-item {
+    opacity: 1;
+    transition: opacity 0.5s ease; /* Vreme tranzicije i ease funkcija */
+}
+
+.carousel-item.active {
+    opacity: 0; /* Sakrij aktivni slide */
+    transition-delay: 0.5s; /* Delay za početak tranzicije */
+}
+
+.carouselNaslov
+{
+    font-size: 30px;
+    width: fit-content;
+    background-color: rgba(22, 72, 99, 0.8);
+    margin: auto;
+    padding: 0px 5px 0px 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.carouselOpis
+ {
+    width: fit-content;
+    background-color: rgba(22, 72, 99, 0.8);
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+/* top ponuda */
+.jumbotronTopPonuda
+{
+    overflow: hidden;
+    border: 1px solid #164863;
+    border-radius: 10px;
+    height: 400px;
+    min-width: 223px;
+    max-width: 223px;
+    transition: 150ms;
+    margin: 6px auto;
+}
+.jumbotronTopPonuda:hover
+{
+    transform: scale(1.05);
+}
+
+
+
+.topPonudaBaner
+{
+    /* 223*200 velicina */
+    border-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 200px;
+    width: 100%;
+}
+.lokacijaOdDoTop
+{
+    text-align: left;
+    padding-left: 13px;
+    font-size: 22px;
+    padding-top: 10px;
+    color: #164863;
+}
+.datumPolaskaTop
+{
+    padding-left: 13px;
+    text-align: left;
+    font-size: 18px;
+    color: #164863;
+}
+.cenaTop
+{
+    font-size: 25px;
+    text-align: right;
+    padding-top: 35px;
+    padding-right: 13px;
+    color: #c52465;
+}
+.rezervisiTop
+{
+    display: block;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 52px;
+    width: 100%;
+    background-color: #164863;
+    color: white;
+    transition: 300ms;
+    
+}
+.rezervisiTop:hover
+{
+    background-color: #c52465;
+    
+}
+
+/* footer */
+.footer
+{
+    width: 100%;
+    background-color: #164863;
+    color: white;
+}
+#footerLevo
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.footerNaslov
+{
+    font-weight: bold;
+    text-align: left;
+    font-size: 80px;
+}
+.fLink
+{
+    text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+}
+.fLink:hover
+{
+    color: #e34b89;
+}
+#footLink
+{
+    padding-left: 5px;
+}
+.naslovKompanija
+{
+    font-weight: bold;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.opisKompanija
+{
+    font-weight: lighter;
+    text-align: left;
+    margin: -1px;
+}
+
+
+/* desni deo */
+#footerDesno
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.tekstKontakt
+{
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+.mapa
+{
+    border-radius: 30px;
+}
+#kontaktTelefon
+{
+    padding-right: 215px;
+}
+#kontaktMail
+{
+    padding-right: 126px;
+}
+.mreze
+{
+    padding-top: 20px;
+    display: inline;
+}
+#ikonice
+{
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 300ms;
+}
+#ikonice:hover
+{
+    transform: scale(1.1);
+}

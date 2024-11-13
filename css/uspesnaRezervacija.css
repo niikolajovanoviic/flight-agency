@@ -1,0 +1,51 @@
+/* body
+{
+    font-family: 'League Spartan';
+    background-color: #e7e9eb;
+} */
+/* .ispisPodataka
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nemaPodataka
+{
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+#np
+{
+    
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #9BBEC8;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+} */
+body{
+    margin-top:20px;
+    background-color:#eee;
+    font-family: 'League Spartan';
+}
+
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+}

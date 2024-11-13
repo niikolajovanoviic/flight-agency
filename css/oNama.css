@@ -1,0 +1,244 @@
+body
+{
+    font-family: 'League Spartan';font-size: 22px;
+    background-color: #fcfcfc;  
+    overflow: visible;
+}
+
+/* navigacija */
+#nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-toggler-icon
+{
+    transform: rotate(180deg);
+    background-image: url("pictures/navbar_hamburger1.png");
+    transition: 300ms;
+
+}
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon
+{
+    background-image: url("pictures/navbar_hamburger2.png");
+    transform: rotate(90deg);
+}
+.NavText
+{
+    font-size: 23px;
+    padding-top: 10px;
+    color: #164863;
+    transition: 300ms;
+}
+.NavText:hover
+{
+    transform: scale(1.1);
+    color: #c52465;
+    
+}
+
+
+.NavTextUloguj
+{
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: #164863;
+    transition: 300ms;
+}
+.NavTextUloguj:hover
+{
+    transform: scale(1.1);
+    color: #c52465;
+}
+.NavTextIme
+{
+    font-size: 23px;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: #164863;
+}
+
+#navOnama
+{
+    color: #c52465;
+    border-bottom: 2px solid #c52465;
+}
+#navbarNav
+{
+    text-align: center;
+    transition: 500ms;
+}
+#navbarPadding
+{
+    padding-top: 90px;
+}
+.col
+{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.naslov_oNama h1
+{
+    text-align: left;
+    color: #164863;
+    font-size: 58px;
+    
+}
+.podnaslov_oNama p
+{
+    text-align: left;
+    color: #c52465;
+    font-size: 28px;
+    font-weight: bold;
+}
+.tekst_oNama 
+{
+    color: #164863;
+    border-top: 5px solid #164863;
+    border-bottom: 5px solid #164863;
+    border-radius: 20px;
+    padding-top: 25px;
+    font-size: 23px;
+}
+.tekst_oNama p 
+{
+    text-align: left;
+}
+.link_oNama
+{
+    color: #164863;
+    font-size: 29px;
+    text-align: center;
+    transition: 300ms;
+}
+.link_oNama:hover
+{
+    color: #c52465;
+    font-size: 29px;
+    text-align: center;
+    
+}
+
+
+
+.carousel-inner
+{
+    border-radius: 50px;
+    margin: 5px;
+}
+.carousel-item {
+    opacity: 1;
+    transition: opacity 0.5s ease; /* Vreme tranzicije i ease funkcija */
+}
+
+.carousel-item.active {
+    opacity: 0; /* Sakrij aktivni slide */
+    transition-delay: 0.5s; /* Delay za početak tranzicije */
+}
+
+
+@media only screen and (max-width:1399px) {
+    #levo_oNama
+    {
+        width: 100%;
+    }
+
+   
+    #desno_oNama
+    {
+        width: 100%;
+    }
+}
+
+
+/* footer */
+.footer
+{
+    width: 100%;
+    background-color: #164863;
+    color: white;
+}
+#footerLevo
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.footerNaslov
+{
+    font-weight: bold;
+    text-align: left;
+    font-size: 80px;
+}
+.fLink
+{
+    text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+}
+.fLink:hover
+{
+    color: #e34b89;
+}
+#footLink
+{
+    padding-left: 5px;
+}
+.naslovKompanija
+{
+    font-weight: bold;
+    text-align: left;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.opisKompanija
+{
+    font-weight: lighter;
+    text-align: left;
+    margin: -1px;
+}
+
+
+/* desni deo */
+#footerDesno
+{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.tekstKontakt
+{
+    color: white;
+    text-decoration: none;
+    transition: 300ms;
+}
+.mapa
+{
+    border-radius: 30px;
+}
+#kontaktTelefon
+{
+    padding-right: 215px;
+}
+#kontaktMail
+{
+    padding-right: 126px;
+}
+.mreze
+{
+    padding-top: 20px;
+    display: inline;
+}
+#ikonice
+{
+    padding-top: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: 300ms;
+}
+#ikonice:hover
+{
+   transform: scale(1.1);
+}

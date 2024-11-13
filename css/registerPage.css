@@ -1,0 +1,78 @@
+body
+{
+    font-family: 'League Spartan';
+    /* background-image: url("pictures/bcg.jpg");
+    background-attachment: fixed; 
+    background-size: 100% 100%; */
+    background-color: #164863;
+}
+#sredina
+{
+    background-color: #164863 ;
+}
+#loginbox
+{
+    background-color: #fcfcfc;
+}
+#button
+{
+    border-color: #427D9D;
+    color: #427D9D;
+    transition: 0.3s;
+}
+#button:hover
+{
+    background-color: #e34b89;
+    border-color: #e34b89;
+    color: #fcfcfc;
+}
+#napraviNalog
+{
+    text-align: center;
+    font-size: small;
+}
+#link
+{
+    text-decoration: none;
+    color: gray;
+}
+#link:hover
+{
+    text-decoration: underline;
+    color: #e34b89;
+}
+#button
+{
+    width: 100%;
+}
+.greskaPrazno
+{
+    padding-top: 3px;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    background-color: red;
+    display: table;
+    margin: auto;
+    margin-bottom: 13px;
+    color: white;
+    font-size: 15px;
+}
+
+#greskaIme, #greskaPrezime, #greskaEmail,#greskaSifra
+{
+   
+    text-align: left;
+    color: red;
+    font-size: 15px;
+}
+#opis
+{
+    font-weight: lighter;
+}
+
+#passwordEye:hover
+{
+    cursor: pointer;
+}
